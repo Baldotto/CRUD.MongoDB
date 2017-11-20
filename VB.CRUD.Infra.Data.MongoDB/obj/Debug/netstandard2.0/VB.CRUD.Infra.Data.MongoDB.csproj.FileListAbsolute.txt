@@ -1,0 +1,11 @@
+C:\Users\1511 MXTI\source\Workspaces\VB.CRUD\CRUD.MongoDB\VB.CRUD.Infra.Data.MongoDB\bin\Debug\netstandard2.0\VB.CRUD.Infra.Data.MongoDB.deps.json
+C:\Users\1511 MXTI\source\Workspaces\VB.CRUD\CRUD.MongoDB\VB.CRUD.Infra.Data.MongoDB\bin\Debug\netstandard2.0\VB.CRUD.Infra.Data.MongoDB.dll
+C:\Users\1511 MXTI\source\Workspaces\VB.CRUD\CRUD.MongoDB\VB.CRUD.Infra.Data.MongoDB\bin\Debug\netstandard2.0\VB.CRUD.Infra.Data.MongoDB.pdb
+C:\Users\1511 MXTI\source\Workspaces\VB.CRUD\CRUD.MongoDB\VB.CRUD.Infra.Data.MongoDB\bin\Debug\netstandard2.0\VB.CRUD.Domain.dll
+C:\Users\1511 MXTI\source\Workspaces\VB.CRUD\CRUD.MongoDB\VB.CRUD.Infra.Data.MongoDB\bin\Debug\netstandard2.0\VB.CRUD.Domain.pdb
+C:\Users\1511 MXTI\source\Workspaces\VB.CRUD\CRUD.MongoDB\VB.CRUD.Infra.Data.MongoDB\obj\Debug\netstandard2.0\VB.CRUD.Infra.Data.MongoDB.csprojResolveAssemblyReference.cache
+C:\Users\1511 MXTI\source\Workspaces\VB.CRUD\CRUD.MongoDB\VB.CRUD.Infra.Data.MongoDB\obj\Debug\netstandard2.0\VB.CRUD.Infra.Data.MongoDB.csproj.CoreCompileInputs.cache
+C:\Users\1511 MXTI\source\Workspaces\VB.CRUD\CRUD.MongoDB\VB.CRUD.Infra.Data.MongoDB\obj\Debug\netstandard2.0\VB.CRUD.Infra.Data.MongoDB.AssemblyInfoInputs.cache
+C:\Users\1511 MXTI\source\Workspaces\VB.CRUD\CRUD.MongoDB\VB.CRUD.Infra.Data.MongoDB\obj\Debug\netstandard2.0\VB.CRUD.Infra.Data.MongoDB.AssemblyInfo.cs
+C:\Users\1511 MXTI\source\Workspaces\VB.CRUD\CRUD.MongoDB\VB.CRUD.Infra.Data.MongoDB\obj\Debug\netstandard2.0\VB.CRUD.Infra.Data.MongoDB.dll
+C:\Users\1511 MXTI\source\Workspaces\VB.CRUD\CRUD.MongoDB\VB.CRUD.Infra.Data.MongoDB\obj\Debug\netstandard2.0\VB.CRUD.Infra.Data.MongoDB.pdb

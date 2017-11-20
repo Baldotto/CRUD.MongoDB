@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Service", "0 - Service", "{86EACEF0-02C4-4480-96EE-A9C7E955B252}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Infra", "2 - Infra", "{B45B6DE8-55AA-49AF-9861-930B257627C7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VB.CRUD.Infra.Data.MongoDB", "VB.CRUD.Infra.Data.MongoDB\VB.CRUD.Infra.Data.MongoDB.csproj", "{A2802066-21D2-422F-B875-5C19EA2B27EE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VB.CRUD.Service.WebAPI", "VB.CRUD.Service.WebAPI\VB.CRUD.Service.WebAPI.csproj", "{03CE5C3A-252A-4C8F-8ABB-07B44607C81B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Domain", "1 - Domain", "{6A795AFC-7F24-4762-B35D-6D2250330FCF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VB.CRUD.Domain", "VB.CRUD.Domain\VB.CRUD.Domain.csproj", "{05F0319D-803C-4B3A-B44C-DE0A94B41747}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - CrossCutting", "3 - CrossCutting", "{D7563F88-33A1-4D67-865B-53D23418C909}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VB.CRUD.CrossCutting.IoC", "VB.CRUD.CrossCutting.IoC\VB.CRUD.CrossCutting.IoC.csproj", "{013888AF-DC70-4199-AF34-6F81DE4B0B31}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2802066-21D2-422F-B875-5C19EA2B27EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2802066-21D2-422F-B875-5C19EA2B27EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2802066-21D2-422F-B875-5C19EA2B27EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2802066-21D2-422F-B875-5C19EA2B27EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03CE5C3A-252A-4C8F-8ABB-07B44607C81B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03CE5C3A-252A-4C8F-8ABB-07B44607C81B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03CE5C3A-252A-4C8F-8ABB-07B44607C81B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03CE5C3A-252A-4C8F-8ABB-07B44607C81B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05F0319D-803C-4B3A-B44C-DE0A94B41747}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05F0319D-803C-4B3A-B44C-DE0A94B41747}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05F0319D-803C-4B3A-B44C-DE0A94B41747}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05F0319D-803C-4B3A-B44C-DE0A94B41747}.Release|Any CPU.Build.0 = Release|Any CPU
+		{013888AF-DC70-4199-AF34-6F81DE4B0B31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{013888AF-DC70-4199-AF34-6F81DE4B0B31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{013888AF-DC70-4199-AF34-6F81DE4B0B31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{013888AF-DC70-4199-AF34-6F81DE4B0B31}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A2802066-21D2-422F-B875-5C19EA2B27EE} = {B45B6DE8-55AA-49AF-9861-930B257627C7}
+		{03CE5C3A-252A-4C8F-8ABB-07B44607C81B} = {86EACEF0-02C4-4480-96EE-A9C7E955B252}
+		{05F0319D-803C-4B3A-B44C-DE0A94B41747} = {6A795AFC-7F24-4762-B35D-6D2250330FCF}
+		{013888AF-DC70-4199-AF34-6F81DE4B0B31} = {D7563F88-33A1-4D67-865B-53D23418C909}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {722B8A47-9D4C-42A8-8CBE-9FE660025C8C}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://baldotto.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = VB.CRUD.Domain\\VB.CRUD.Domain.csproj
+		SccProjectTopLevelParentUniqueName1 = VB.CRUD.MongoDB.sln
+		SccProjectName1 = VB.CRUD.Domain
+		SccLocalPath1 = VB.CRUD.Domain
+		SccProjectUniqueName2 = VB.CRUD.Infra.Data.MongoDB\\VB.CRUD.Infra.Data.MongoDB.csproj
+		SccProjectTopLevelParentUniqueName2 = VB.CRUD.MongoDB.sln
+		SccProjectName2 = VB.CRUD.Infra.Data.MongoDB
+		SccLocalPath2 = VB.CRUD.Infra.Data.MongoDB
+		SccProjectUniqueName3 = VB.CRUD.Service.WebAPI\\VB.CRUD.Service.WebAPI.csproj
+		SccProjectTopLevelParentUniqueName3 = VB.CRUD.MongoDB.sln
+		SccProjectName3 = VB.CRUD.Service.WebAPI
+		SccLocalPath3 = VB.CRUD.Service.WebAPI
+		SccProjectUniqueName4 = VB.CRUD.CrossCutting.IoC\\VB.CRUD.CrossCutting.IoC.csproj
+		SccProjectTopLevelParentUniqueName4 = VB.CRUD.MongoDB.sln
+		SccProjectName4 = VB.CRUD.CrossCutting.IoC
+		SccLocalPath4 = VB.CRUD.CrossCutting.IoC
+	EndGlobalSection
+EndGlobal

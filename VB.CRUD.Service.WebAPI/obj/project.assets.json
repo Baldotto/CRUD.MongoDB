@@ -3052,6 +3052,77 @@
           }
         }
       },
+      "Serilog/2.6.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.0.1",
+          "System.Collections": "4.0.11",
+          "System.Collections.NonGeneric": "4.0.1",
+          "System.Dynamic.Runtime": "4.0.11",
+          "System.Globalization": "4.0.11",
+          "System.Linq": "4.1.0",
+          "System.Reflection": "4.1.0",
+          "System.Reflection.Extensions": "4.0.1",
+          "System.Runtime": "4.1.0",
+          "System.Runtime.Extensions": "4.1.0",
+          "System.Text.RegularExpressions": "4.1.0",
+          "System.Threading": "4.0.11"
+        },
+        "compile": {
+          "lib/netstandard1.3/Serilog.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/Serilog.dll": {}
+        }
+      },
+      "Serilog.Extensions.Logging/2.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Logging": "2.0.0",
+          "Serilog": "2.3.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Serilog.Extensions.Logging.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Serilog.Extensions.Logging.dll": {}
+        }
+      },
+      "Serilog.Sinks.File/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.5.0",
+          "System.IO": "4.1.0",
+          "System.IO.FileSystem": "4.0.1",
+          "System.IO.FileSystem.Primitives": "4.0.1",
+          "System.Runtime.InteropServices": "4.1.0",
+          "System.Text.Encoding.Extensions": "4.0.11",
+          "System.Threading": "4.0.11",
+          "System.Threading.Timer": "4.0.1"
+        },
+        "compile": {
+          "lib/netstandard1.3/Serilog.Sinks.File.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/Serilog.Sinks.File.dll": {}
+        }
+      },
+      "Serilog.Sinks.RollingFile/3.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Serilog.Sinks.File": "3.2.0",
+          "System.IO": "4.1.0",
+          "System.IO.FileSystem.Primitives": "4.0.1",
+          "System.Runtime.InteropServices": "4.1.0",
+          "System.Text.Encoding.Extensions": "4.0.11"
+        },
+        "compile": {
+          "lib/netstandard1.3/Serilog.Sinks.RollingFile.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/Serilog.Sinks.RollingFile.dll": {}
+        }
+      },
       "SQLitePCLRaw.bundle_green/1.1.7": {
         "type": "package",
         "dependencies": {
@@ -6080,17 +6151,17 @@
       ]
     },
     "Microsoft.CodeAnalysis.Analyzers/1.1.0": {
-      "sha512": "HS3iRWZKcUw/8eZ/08GXKY2Bn7xNzQPzf8gRPHGSowX7u7XXu9i9YEaBeBNKUXWfI7qjvT2zXtLUvbN0hds8vg==",
+      "sha512": "Op4TropdtALKLCKxW64dOgO2F3KOHMxKUHpsBMi8wy3ubttz28idVEuTpBsox263uHg/BvdhomdJL9LU2cHKqw==",
       "type": "package",
       "path": "microsoft.codeanalysis.analyzers/1.1.0",
       "files": [
+        "Microsoft.CodeAnalysis.Analyzers.1.1.0.nupkg.sha512",
+        "Microsoft.CodeAnalysis.Analyzers.nuspec",
         "ThirdPartyNotices.rtf",
         "analyzers/dotnet/cs/Microsoft.CodeAnalysis.Analyzers.dll",
         "analyzers/dotnet/cs/Microsoft.CodeAnalysis.CSharp.Analyzers.dll",
         "analyzers/dotnet/vb/Microsoft.CodeAnalysis.Analyzers.dll",
         "analyzers/dotnet/vb/Microsoft.CodeAnalysis.VisualBasic.Analyzers.dll",
-        "microsoft.codeanalysis.analyzers.1.1.0.nupkg.sha512",
-        "microsoft.codeanalysis.analyzers.nuspec",
         "tools/install.ps1",
         "tools/uninstall.ps1"
       ]
@@ -8175,6 +8246,68 @@
         "version.txt"
       ]
     },
+    "Serilog/2.6.0": {
+      "sha512": "hxHgHkza8ZowrvQ+jTEF2ypDWGP8NbNtxPQIx7ogTAM9fisDFo2+6kOaxCkleZLO8hiyq0kW5tDLkgm/dbj9uA==",
+      "type": "package",
+      "path": "serilog/2.6.0",
+      "files": [
+        "lib/net45/Serilog.dll",
+        "lib/net45/Serilog.xml",
+        "lib/net46/Serilog.dll",
+        "lib/net46/Serilog.xml",
+        "lib/netstandard1.0/Serilog.dll",
+        "lib/netstandard1.0/Serilog.xml",
+        "lib/netstandard1.3/Serilog.dll",
+        "lib/netstandard1.3/Serilog.xml",
+        "serilog.2.6.0.nupkg.sha512",
+        "serilog.nuspec"
+      ]
+    },
+    "Serilog.Extensions.Logging/2.0.2": {
+      "sha512": "PYAkzUn/VV16Es7U06BfEhNZEltnYWu0WFCM4d2lLY/dvlA7xMwFXBuGRxR0XvEBPoOxPorjhFLy9txwiMO6rg==",
+      "type": "package",
+      "path": "serilog.extensions.logging/2.0.2",
+      "files": [
+        "lib/net45/Serilog.Extensions.Logging.dll",
+        "lib/net45/Serilog.Extensions.Logging.xml",
+        "lib/net46/Serilog.Extensions.Logging.dll",
+        "lib/net46/Serilog.Extensions.Logging.xml",
+        "lib/net461/Serilog.Extensions.Logging.dll",
+        "lib/net461/Serilog.Extensions.Logging.xml",
+        "lib/netstandard1.3/Serilog.Extensions.Logging.dll",
+        "lib/netstandard1.3/Serilog.Extensions.Logging.xml",
+        "lib/netstandard2.0/Serilog.Extensions.Logging.dll",
+        "lib/netstandard2.0/Serilog.Extensions.Logging.xml",
+        "serilog.extensions.logging.2.0.2.nupkg.sha512",
+        "serilog.extensions.logging.nuspec"
+      ]
+    },
+    "Serilog.Sinks.File/4.0.0": {
+      "sha512": "vBj43RkAbeP1dzoPFR2+LfV5GevDRPDq6265JJBv223lMvT9rfdwe/S/I9ow7aZSLYKfw4qPDw6NW8YwjbDbvg==",
+      "type": "package",
+      "path": "serilog.sinks.file/4.0.0",
+      "files": [
+        "lib/net45/Serilog.Sinks.File.dll",
+        "lib/net45/Serilog.Sinks.File.xml",
+        "lib/netstandard1.3/Serilog.Sinks.File.dll",
+        "lib/netstandard1.3/Serilog.Sinks.File.xml",
+        "serilog.sinks.file.4.0.0.nupkg.sha512",
+        "serilog.sinks.file.nuspec"
+      ]
+    },
+    "Serilog.Sinks.RollingFile/3.3.0": {
+      "sha512": "2lT5X1r3GH4P0bRWJfhA7etGl8Q2Ipw9AACvtAHWRUSpYZ42NGVyHoVs2ALBZ/cAkkS+tA4jl80Zie144eLQPg==",
+      "type": "package",
+      "path": "serilog.sinks.rollingfile/3.3.0",
+      "files": [
+        "Serilog.Sinks.RollingFile.3.3.0.nupkg.sha512",
+        "Serilog.Sinks.RollingFile.nuspec",
+        "lib/net45/Serilog.Sinks.RollingFile.dll",
+        "lib/net45/Serilog.Sinks.RollingFile.xml",
+        "lib/netstandard1.3/Serilog.Sinks.RollingFile.dll",
+        "lib/netstandard1.3/Serilog.Sinks.RollingFile.xml"
+      ]
+    },
     "SQLitePCLRaw.bundle_green/1.1.7": {
       "sha512": "Kw+n4CUhQ8S4YAPmpRUldO8S7c4LU7HHukJF0v5Sfggf8Ia9YVdIh0dYkMvKvS+DTX+OBORSMqPM0CGfAzFtVA==",
       "type": "package",
@@ -9188,10 +9321,12 @@
       ]
     },
     "System.Diagnostics.Process/4.1.0": {
-      "sha512": "mpVZ5bnlSs3tTeJ6jYyDJEIa6tavhAd88lxq1zbYhkkCu0Pno2+gHXcvZcoygq2d8JxW3gojXqNJMTAshduqZA==",
+      "sha512": "fG0Lw5u22VZ4sNi3RzspdU+Kwt9Tm4QHASlGzdht+eELW4WdOPATFFTKcN+CBmCWgHeGisf4sQkApbGOV5xOaA==",
       "type": "package",
       "path": "system.diagnostics.process/4.1.0",
       "files": [
+        "System.Diagnostics.Process.4.1.0.nupkg.sha512",
+        "System.Diagnostics.Process.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -9237,9 +9372,7 @@
         "runtimes/win/lib/net46/System.Diagnostics.Process.dll",
         "runtimes/win/lib/net461/System.Diagnostics.Process.dll",
         "runtimes/win/lib/netstandard1.4/System.Diagnostics.Process.dll",
-        "runtimes/win7/lib/netcore50/_._",
-        "system.diagnostics.process.4.1.0.nupkg.sha512",
-        "system.diagnostics.process.nuspec"
+        "runtimes/win7/lib/netcore50/_._"
       ]
     },
     "System.Diagnostics.StackTrace/4.3.0": {
@@ -10078,10 +10211,12 @@
       ]
     },
     "System.Linq.Queryable/4.0.1": {
-      "sha512": "Yn/WfYe9RoRfmSLvUt2JerP0BTGGykCZkQPgojaxgzF2N0oPo+/AhB8TXOpdCcNlrG3VRtsamtK2uzsp3cqRVw==",
+      "sha512": "AobEuQafEwgK4/L+JkCMc1YqdyFqtpWCJns3gJcXGbCOvWxwYvm0TfPs/X+vB63oS5V48ydwYZ7nFkuX2qi8Mw==",
       "type": "package",
       "path": "system.linq.queryable/4.0.1",
       "files": [
+        "System.Linq.Queryable.4.0.1.nupkg.sha512",
+        "System.Linq.Queryable.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/monoandroid10/_._",
@@ -10129,9 +10264,7 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._",
-        "system.linq.queryable.4.0.1.nupkg.sha512",
-        "system.linq.queryable.nuspec"
+        "ref/xamarinwatchos10/_._"
       ]
     },
     "System.Net.Http/4.3.0": {
@@ -13070,13 +13203,17 @@
       "Autofac.Extensions.DependencyInjection >= 4.2.0",
       "Microsoft.AspNetCore.All >= 2.0.3",
       "Microsoft.NETCore.App >= 2.0.0",
+      "Serilog >= 2.6.0",
+      "Serilog.Extensions.Logging >= 2.0.2",
+      "Serilog.Sinks.File >= 4.0.0",
+      "Serilog.Sinks.RollingFile >= 3.3.0",
       "Swashbuckle.AspNetCore >= 1.1.0",
       "VB.CRUD.CrossCutting.IoC >= 1.0.0",
       "VB.CRUD.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\1511 MXTI\\.nuget\\packages\\": {},
+    "C:\\Users\\bsi90736\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -13085,17 +13222,17 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\1511 MXTI\\source\\Workspaces\\VB.CRUD\\CRUD.MongoDB\\VB.CRUD.Service.WebAPI\\VB.CRUD.Service.WebAPI.csproj",
+      "projectUniqueName": "C:\\src\\CRUD.MongoDB\\VB.CRUD.Service.WebAPI\\VB.CRUD.Service.WebAPI.csproj",
       "projectName": "VB.CRUD.Service.WebAPI",
-      "projectPath": "C:\\Users\\1511 MXTI\\source\\Workspaces\\VB.CRUD\\CRUD.MongoDB\\VB.CRUD.Service.WebAPI\\VB.CRUD.Service.WebAPI.csproj",
-      "packagesPath": "C:\\Users\\1511 MXTI\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\1511 MXTI\\source\\Workspaces\\VB.CRUD\\CRUD.MongoDB\\VB.CRUD.Service.WebAPI\\obj\\",
+      "projectPath": "C:\\src\\CRUD.MongoDB\\VB.CRUD.Service.WebAPI\\VB.CRUD.Service.WebAPI.csproj",
+      "packagesPath": "C:\\Users\\bsi90736\\.nuget\\packages\\",
+      "outputPath": "C:\\src\\CRUD.MongoDB\\VB.CRUD.Service.WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\1511 MXTI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\bsi90736\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -13108,11 +13245,11 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\1511 MXTI\\source\\Workspaces\\VB.CRUD\\CRUD.MongoDB\\VB.CRUD.CrossCutting.IoC\\VB.CRUD.CrossCutting.IoC.csproj": {
-              "projectPath": "C:\\Users\\1511 MXTI\\source\\Workspaces\\VB.CRUD\\CRUD.MongoDB\\VB.CRUD.CrossCutting.IoC\\VB.CRUD.CrossCutting.IoC.csproj"
+            "C:\\src\\CRUD.MongoDB\\VB.CRUD.CrossCutting.IoC\\VB.CRUD.CrossCutting.IoC.csproj": {
+              "projectPath": "C:\\src\\CRUD.MongoDB\\VB.CRUD.CrossCutting.IoC\\VB.CRUD.CrossCutting.IoC.csproj"
             },
-            "C:\\Users\\1511 MXTI\\source\\Workspaces\\VB.CRUD\\CRUD.MongoDB\\VB.CRUD.Domain\\VB.CRUD.Domain.csproj": {
-              "projectPath": "C:\\Users\\1511 MXTI\\source\\Workspaces\\VB.CRUD\\CRUD.MongoDB\\VB.CRUD.Domain\\VB.CRUD.Domain.csproj"
+            "C:\\src\\CRUD.MongoDB\\VB.CRUD.Domain\\VB.CRUD.Domain.csproj": {
+              "projectPath": "C:\\src\\CRUD.MongoDB\\VB.CRUD.Domain\\VB.CRUD.Domain.csproj"
             }
           }
         }
@@ -13130,9 +13267,21 @@
             "target": "Package",
             "version": "4.2.0"
           },
+          "Serilog.Sinks.RollingFile": {
+            "target": "Package",
+            "version": "3.3.0"
+          },
+          "Serilog.Sinks.File": {
+            "target": "Package",
+            "version": "4.0.0"
+          },
+          "Serilog": {
+            "target": "Package",
+            "version": "2.6.0"
+          },
           "Microsoft.NETCore.App": {
             "target": "Package",
-            "version": "2.0.0",
+            "version": "2.0",
             "autoReferenced": true
           },
           "Swashbuckle.AspNetCore": {
@@ -13142,6 +13291,10 @@
           "Microsoft.AspNetCore.All": {
             "target": "Package",
             "version": "2.0.3"
+          },
+          "Serilog.Extensions.Logging": {
+            "target": "Package",
+            "version": "2.0.2"
           },
           "AutoFac": {
             "target": "Package",

@@ -15,3 +15,20 @@ C:\Users\1511 MXTI\source\Workspaces\VB.CRUD\CRUD.MongoDB\VB.CRUD.Service.WebAPI
 C:\Users\1511 MXTI\source\Workspaces\VB.CRUD\CRUD.MongoDB\VB.CRUD.Service.WebAPI\obj\Debug\netcoreapp2.0\VB.CRUD.Service.WebAPI.AssemblyInfo.cs
 C:\Users\1511 MXTI\source\Workspaces\VB.CRUD\CRUD.MongoDB\VB.CRUD.Service.WebAPI\obj\Debug\netcoreapp2.0\VB.CRUD.Service.WebAPI.dll
 C:\Users\1511 MXTI\source\Workspaces\VB.CRUD\CRUD.MongoDB\VB.CRUD.Service.WebAPI\obj\Debug\netcoreapp2.0\VB.CRUD.Service.WebAPI.pdb
+C:\src\CRUD.MongoDB\VB.CRUD.Service.WebAPI\bin\Debug\netcoreapp2.0\VB.CRUD.Service.WebAPI.deps.json
+C:\src\CRUD.MongoDB\VB.CRUD.Service.WebAPI\bin\Debug\netcoreapp2.0\VB.CRUD.Service.WebAPI.runtimeconfig.json
+C:\src\CRUD.MongoDB\VB.CRUD.Service.WebAPI\bin\Debug\netcoreapp2.0\VB.CRUD.Service.WebAPI.runtimeconfig.dev.json
+C:\src\CRUD.MongoDB\VB.CRUD.Service.WebAPI\bin\Debug\netcoreapp2.0\VB.CRUD.Service.WebAPI.dll
+C:\src\CRUD.MongoDB\VB.CRUD.Service.WebAPI\bin\Debug\netcoreapp2.0\VB.CRUD.Service.WebAPI.pdb
+C:\src\CRUD.MongoDB\VB.CRUD.Service.WebAPI\bin\Debug\netcoreapp2.0\VB.CRUD.CrossCutting.IoC.dll
+C:\src\CRUD.MongoDB\VB.CRUD.Service.WebAPI\bin\Debug\netcoreapp2.0\VB.CRUD.Domain.dll
+C:\src\CRUD.MongoDB\VB.CRUD.Service.WebAPI\bin\Debug\netcoreapp2.0\VB.CRUD.Infra.Data.MongoDB.dll
+C:\src\CRUD.MongoDB\VB.CRUD.Service.WebAPI\bin\Debug\netcoreapp2.0\VB.CRUD.CrossCutting.IoC.pdb
+C:\src\CRUD.MongoDB\VB.CRUD.Service.WebAPI\bin\Debug\netcoreapp2.0\VB.CRUD.Domain.pdb
+C:\src\CRUD.MongoDB\VB.CRUD.Service.WebAPI\bin\Debug\netcoreapp2.0\VB.CRUD.Infra.Data.MongoDB.pdb
+C:\src\CRUD.MongoDB\VB.CRUD.Service.WebAPI\obj\Debug\netcoreapp2.0\VB.CRUD.Service.WebAPI.csprojResolveAssemblyReference.cache
+C:\src\CRUD.MongoDB\VB.CRUD.Service.WebAPI\obj\Debug\netcoreapp2.0\VB.CRUD.Service.WebAPI.csproj.CoreCompileInputs.cache
+C:\src\CRUD.MongoDB\VB.CRUD.Service.WebAPI\obj\Debug\netcoreapp2.0\VB.CRUD.Service.WebAPI.AssemblyInfoInputs.cache
+C:\src\CRUD.MongoDB\VB.CRUD.Service.WebAPI\obj\Debug\netcoreapp2.0\VB.CRUD.Service.WebAPI.AssemblyInfo.cs
+C:\src\CRUD.MongoDB\VB.CRUD.Service.WebAPI\obj\Debug\netcoreapp2.0\VB.CRUD.Service.WebAPI.dll
+C:\src\CRUD.MongoDB\VB.CRUD.Service.WebAPI\obj\Debug\netcoreapp2.0\VB.CRUD.Service.WebAPI.pdb

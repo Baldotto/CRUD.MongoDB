@@ -9,3 +9,14 @@ C:\Users\1511 MXTI\source\Workspaces\VB.CRUD\CRUD.MongoDB\VB.CRUD.Infra.Data.Mon
 C:\Users\1511 MXTI\source\Workspaces\VB.CRUD\CRUD.MongoDB\VB.CRUD.Infra.Data.MongoDB\obj\Debug\netstandard2.0\VB.CRUD.Infra.Data.MongoDB.AssemblyInfo.cs
 C:\Users\1511 MXTI\source\Workspaces\VB.CRUD\CRUD.MongoDB\VB.CRUD.Infra.Data.MongoDB\obj\Debug\netstandard2.0\VB.CRUD.Infra.Data.MongoDB.dll
 C:\Users\1511 MXTI\source\Workspaces\VB.CRUD\CRUD.MongoDB\VB.CRUD.Infra.Data.MongoDB\obj\Debug\netstandard2.0\VB.CRUD.Infra.Data.MongoDB.pdb
+C:\src\CRUD.MongoDB\VB.CRUD.Infra.Data.MongoDB\bin\Debug\netstandard2.0\VB.CRUD.Infra.Data.MongoDB.deps.json
+C:\src\CRUD.MongoDB\VB.CRUD.Infra.Data.MongoDB\bin\Debug\netstandard2.0\VB.CRUD.Infra.Data.MongoDB.dll
+C:\src\CRUD.MongoDB\VB.CRUD.Infra.Data.MongoDB\bin\Debug\netstandard2.0\VB.CRUD.Infra.Data.MongoDB.pdb
+C:\src\CRUD.MongoDB\VB.CRUD.Infra.Data.MongoDB\bin\Debug\netstandard2.0\VB.CRUD.Domain.dll
+C:\src\CRUD.MongoDB\VB.CRUD.Infra.Data.MongoDB\bin\Debug\netstandard2.0\VB.CRUD.Domain.pdb
+C:\src\CRUD.MongoDB\VB.CRUD.Infra.Data.MongoDB\obj\Debug\netstandard2.0\VB.CRUD.Infra.Data.MongoDB.csprojResolveAssemblyReference.cache
+C:\src\CRUD.MongoDB\VB.CRUD.Infra.Data.MongoDB\obj\Debug\netstandard2.0\VB.CRUD.Infra.Data.MongoDB.csproj.CoreCompileInputs.cache
+C:\src\CRUD.MongoDB\VB.CRUD.Infra.Data.MongoDB\obj\Debug\netstandard2.0\VB.CRUD.Infra.Data.MongoDB.AssemblyInfoInputs.cache
+C:\src\CRUD.MongoDB\VB.CRUD.Infra.Data.MongoDB\obj\Debug\netstandard2.0\VB.CRUD.Infra.Data.MongoDB.AssemblyInfo.cs
+C:\src\CRUD.MongoDB\VB.CRUD.Infra.Data.MongoDB\obj\Debug\netstandard2.0\VB.CRUD.Infra.Data.MongoDB.dll
+C:\src\CRUD.MongoDB\VB.CRUD.Infra.Data.MongoDB\obj\Debug\netstandard2.0\VB.CRUD.Infra.Data.MongoDB.pdb

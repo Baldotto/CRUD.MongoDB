@@ -1,0 +1,11 @@
+
+*.lock
+*.ide
+*.ide-shm
+*.ide-wal
+*.ide
+*.ide
+.vs/VB.CRUD.MongoDB/v15/sqlite3/storage.ide
+*.cache
+*.txt
+*.dll

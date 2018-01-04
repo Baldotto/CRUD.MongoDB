@@ -11,3 +11,16 @@ C:\Users\1511 MXTI\source\Workspaces\VB.CRUD\CRUD.MongoDB\VB.CRUD.CrossCutting.I
 C:\Users\1511 MXTI\source\Workspaces\VB.CRUD\CRUD.MongoDB\VB.CRUD.CrossCutting.IoC\obj\Debug\netstandard2.0\VB.CRUD.CrossCutting.IoC.AssemblyInfo.cs
 C:\Users\1511 MXTI\source\Workspaces\VB.CRUD\CRUD.MongoDB\VB.CRUD.CrossCutting.IoC\obj\Debug\netstandard2.0\VB.CRUD.CrossCutting.IoC.dll
 C:\Users\1511 MXTI\source\Workspaces\VB.CRUD\CRUD.MongoDB\VB.CRUD.CrossCutting.IoC\obj\Debug\netstandard2.0\VB.CRUD.CrossCutting.IoC.pdb
+C:\src\CRUD.MongoDB\VB.CRUD.CrossCutting.IoC\bin\Debug\netstandard2.0\VB.CRUD.CrossCutting.IoC.deps.json
+C:\src\CRUD.MongoDB\VB.CRUD.CrossCutting.IoC\bin\Debug\netstandard2.0\VB.CRUD.CrossCutting.IoC.dll
+C:\src\CRUD.MongoDB\VB.CRUD.CrossCutting.IoC\bin\Debug\netstandard2.0\VB.CRUD.CrossCutting.IoC.pdb
+C:\src\CRUD.MongoDB\VB.CRUD.CrossCutting.IoC\bin\Debug\netstandard2.0\VB.CRUD.Domain.dll
+C:\src\CRUD.MongoDB\VB.CRUD.CrossCutting.IoC\bin\Debug\netstandard2.0\VB.CRUD.Infra.Data.MongoDB.dll
+C:\src\CRUD.MongoDB\VB.CRUD.CrossCutting.IoC\bin\Debug\netstandard2.0\VB.CRUD.Infra.Data.MongoDB.pdb
+C:\src\CRUD.MongoDB\VB.CRUD.CrossCutting.IoC\bin\Debug\netstandard2.0\VB.CRUD.Domain.pdb
+C:\src\CRUD.MongoDB\VB.CRUD.CrossCutting.IoC\obj\Debug\netstandard2.0\VB.CRUD.CrossCutting.IoC.csprojResolveAssemblyReference.cache
+C:\src\CRUD.MongoDB\VB.CRUD.CrossCutting.IoC\obj\Debug\netstandard2.0\VB.CRUD.CrossCutting.IoC.csproj.CoreCompileInputs.cache
+C:\src\CRUD.MongoDB\VB.CRUD.CrossCutting.IoC\obj\Debug\netstandard2.0\VB.CRUD.CrossCutting.IoC.AssemblyInfoInputs.cache
+C:\src\CRUD.MongoDB\VB.CRUD.CrossCutting.IoC\obj\Debug\netstandard2.0\VB.CRUD.CrossCutting.IoC.AssemblyInfo.cs
+C:\src\CRUD.MongoDB\VB.CRUD.CrossCutting.IoC\obj\Debug\netstandard2.0\VB.CRUD.CrossCutting.IoC.dll
+C:\src\CRUD.MongoDB\VB.CRUD.CrossCutting.IoC\obj\Debug\netstandard2.0\VB.CRUD.CrossCutting.IoC.pdb

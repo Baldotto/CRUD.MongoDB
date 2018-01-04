@@ -177,7 +177,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\1511 MXTI\\.nuget\\packages\\": {},
+    "C:\\Users\\bsi90736\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -186,17 +186,17 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\1511 MXTI\\source\\Workspaces\\VB.CRUD\\CRUD.MongoDB\\VB.CRUD.Domain\\VB.CRUD.Domain.csproj",
+      "projectUniqueName": "C:\\src\\CRUD.MongoDB\\VB.CRUD.Domain\\VB.CRUD.Domain.csproj",
       "projectName": "VB.CRUD.Domain",
-      "projectPath": "C:\\Users\\1511 MXTI\\source\\Workspaces\\VB.CRUD\\CRUD.MongoDB\\VB.CRUD.Domain\\VB.CRUD.Domain.csproj",
-      "packagesPath": "C:\\Users\\1511 MXTI\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\1511 MXTI\\source\\Workspaces\\VB.CRUD\\CRUD.MongoDB\\VB.CRUD.Domain\\obj\\",
+      "projectPath": "C:\\src\\CRUD.MongoDB\\VB.CRUD.Domain\\VB.CRUD.Domain.csproj",
+      "packagesPath": "C:\\Users\\bsi90736\\.nuget\\packages\\",
+      "outputPath": "C:\\src\\CRUD.MongoDB\\VB.CRUD.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\1511 MXTI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\bsi90736\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

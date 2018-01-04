@@ -11,6 +11,7 @@ using Microsoft.Extensions.Options;
 using Autofac;
 using Autofac.Extensions.DependencyInjection;
 using VB.CRUD.CrossCutting.IoC;
+using Serilog;
 
 namespace VB.CRUD.Service.WebAPI
 {

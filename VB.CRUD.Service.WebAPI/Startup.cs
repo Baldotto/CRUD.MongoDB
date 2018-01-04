@@ -55,8 +55,11 @@ namespace VB.CRUD.Service.WebAPI
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
         {
+
+            ConfigurarLog(app, env, loggerFactory);
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -77,5 +80,27 @@ namespace VB.CRUD.Service.WebAPI
             });
 
         }
+
+        private void ConfigurarLog(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
+        {
+
+            var appname = this.GetType().FullName.Replace($".{this.GetType().Name}", "");
+
+            Log.Logger = new LoggerConfiguration()
+              .MinimumLevel.Debug()
+              .WriteTo.RollingFile($"logs/{appname}-{{Hour}}.txt")
+              .CreateLogger();
+
+            Serilog.Debugging.SelfLog.Enable(Console.Error);
+            loggerFactory.AddSerilog();
+
+            if (env.IsDevelopment())
+            {
+                app.UseDeveloperExceptionPage();
+                loggerFactory.AddConsole();
+                loggerFactory.AddDebug();
+            }
+        }
+
     }
 }
